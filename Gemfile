@@ -45,6 +45,7 @@ group :development, :test do
   gem "capybara"
   gem "database_cleaner"
   gem "pry"
+  gem "rubocop", "0.58.1"
   gem "rspec-rails", "~> 3.7"
   gem "spring"
 end

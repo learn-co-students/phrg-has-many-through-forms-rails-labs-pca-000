@@ -1,4 +1,4 @@
-require 'spec_helper'
+require 'rails_helper'
 
 describe 'rubocop analysis' do
   it 'has no offenses' do

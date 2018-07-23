@@ -7,10 +7,8 @@ class Comment < ActiveRecord::Base
 
   def user_attributes=(attribute)
     # binding.pry
-    unless attribute[:username].empty?
-      user = User.find_or_create_by(attribute)
-      self.user = user
-    end
+    return if attribute[:username].empty?
+    user = User.find_or_create_by(attribute)
+    self.user = user
   end
-
 end

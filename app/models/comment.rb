@@ -6,9 +6,8 @@ class Comment < ActiveRecord::Base
   accepts_nested_attributes_for :user
 
   def user_attributes=(attribute)
-    unless attribute[:username].empty?
-      user = User.find_or_create_by(attribute)
-      self.user = user
-    end
+    return if attribute[:username].empty?
+    user = User.find_or_create_by(attribute)
+    self.user = user
   end
 end

@@ -1,1 +1,19 @@
+<%= @post.title %>
+<br>
+<%= @post.content %>
+<br>
 
+<ol>
+  <%= @post.users.uniq.each do |user| %>
+    <li>
+    <%= link_to user.username, user_path(user) %>
+    <ol>
+    <% user.comments.where(post: @post).each do |comment| %>
+      <li>
+      <%= comment.content %>
+      </li>
+    <%end%>
+    </ol>
+  <% end %>
+  </li>
+</ol>

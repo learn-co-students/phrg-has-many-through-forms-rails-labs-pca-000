@@ -17,6 +17,7 @@ describe 'comments', type: 'feature' do
   end
 
   it 'creates a comment and a new user' do
+    #binding.pry
     fill_in('comment_content', with: 'i agree')
     fill_in('comment_user_attributes_username', with: 'CoolPerson25')
     click_button('Create Comment')

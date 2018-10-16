@@ -41,4 +41,7 @@ We've looked at setting up the associations behind posts with comments, categori
 + [Collection Select](http://apidock.com/rails/ActionView/Helpers/FormOptionsHelper/collection_select)
 + [Lab Review](https://www.youtube.com/watch?v=k7s2LjVF3YY)
 
+## Does this need an update?
+Please open a [GitHub issue](https://github.com/learn-co-curriculum/phrg-has-many-through-forms-rails-labs/issues) or [pull-request](https://github.com/learn-co-curriculum/phrg-has-many-through-forms-rails-labs/pulls). Provide a detailed description that explains the issue you have found or the change you are proposing. Then "@" mention your instructor on the issue or pull-request, and send them a link via Connect.
+
 <p data-visibility='hidden'>PHRG Has Many Through Forms Rails Labs</p>

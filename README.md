@@ -4,7 +4,6 @@
 
 We've looked at setting up the associations behind posts with comments, categories, and users. Now, let's actually give our users the ability to create new comments, users, and categories! For this lab, your models are already stubbed out, but you may need to update them to make your forms work properly.
 
-
 ## Objectives
 
 1. Construct a bi-directional has many through.
@@ -42,6 +41,5 @@ We've looked at setting up the associations behind posts with comments, categori
 + [Lab Review](https://www.youtube.com/watch?v=k7s2LjVF3YY)
 
 ## Does this need an update?
-Please open a [GitHub issue](https://github.com/learn-co-curriculum/phrg-has-many-through-forms-rails-labs/issues) or [pull-request](https://github.com/learn-co-curriculum/phrg-has-many-through-forms-rails-labs/pulls). Provide a detailed description that explains the issue you have found or the change you are proposing. Then "@" mention your instructor on the issue or pull-request, and send them a link via Connect.
 
-<p data-visibility='hidden'>PHRG Has Many Through Forms Rails Labs</p>
+Please open a [GitHub issue](https://github.com/learn-co-curriculum/phrg-has-many-through-forms-rails-labs/issues) or [pull-request](https://github.com/learn-co-curriculum/phrg-has-many-through-forms-rails-labs/pulls). Provide a detailed description that explains the issue you have found or the change you are proposing. Then "@" mention your instructor on the issue or pull-request, and send them a link via Connect.

@@ -1,0 +1,5 @@
+<% @category.posts.each do |post| %>
+  <%= link_to post.title, post_path(post) %>
+<% end %>
+
+<!-- Pulling from the controller, @category then linking to 2 args, a string of the name and the url helper that guides us to this page to show the data -->

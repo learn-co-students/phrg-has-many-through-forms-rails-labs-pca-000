@@ -1,8 +1,12 @@
 # frozen_string_literal: true
 
+require "pry"
+
 class PostsController < ApplicationController
   def show
     @post = Post.find(params[:id])
+    @users = @post.users.uniq
+    @comment = Comment.new
   end
 
   def index
